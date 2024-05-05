@@ -16,3 +16,33 @@ To run this project, you'll need:
 - dlib
 - winsound for alert sounds (Windows only).
 
+
+## Installation
+
+Follow these steps to get your development environment running:
+
+1. **Clone the Repository**
+   Clone this repository to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/your-username/driver-monitoring-system.git
+   cd driver-monitoring-system
+
+2. **Install Required Libraries**
+   Install all the necessary libraries using the provided requirements.txt:
+
+   pip install -r requirements.txt
+
+3. **Download Required Data Files**
+- Download the shape_predictor_68_face_landmarks.dat file:
+  Go to http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2 and download the .bz2 file.
+
+- Extract the file using the following command, and move the /utils/calibration folder
+  mv /path/to/shape_predictor_68_face_landmarks.dat /path/to/your/project/utils/calibration/
+
+## Running the Project
+
+To run the project, navigate to your project directory and execute the main script:
+- python main.py
+
+Enjoy our project, and don't fall asleep running it :)

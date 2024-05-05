@@ -13,7 +13,7 @@ To run this project, you'll need:
 - Python 3.11 or later.
 - OpenCV for image processing.
 - imutils for image manipulation.
-- dlib
+- dlib for facial landmark detection.
 - winsound for alert sounds (Windows only).
 
 

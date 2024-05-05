@@ -38,11 +38,15 @@ Follow these steps to get your development environment running:
   Go to http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2 and download the .bz2 file.
 
 - Extract the file using the following command, and move the /utils/calibration folder
+
+  ```bash
   mv /path/to/shape_predictor_68_face_landmarks.dat /path/to/your/project/utils/calibration/
 
 ## Running the Project
 
 To run the project, navigate to your project directory and execute the main script:
-- python main.py
+
+   ```bash
+   python main.py
 
 Enjoy our project, and don't fall asleep running it :)

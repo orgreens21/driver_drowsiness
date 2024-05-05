@@ -25,8 +25,8 @@ Follow these steps to get your development environment running:
    Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/your-username/driver-monitoring-system.git
-   cd driver-monitoring-system
+   git clone https://github.com/orgreens21/driver_drowsiness.git
+   cd driver_drowsiness
 
 2. **Install Required Libraries**
    Install all the necessary libraries using the provided requirements.txt:
